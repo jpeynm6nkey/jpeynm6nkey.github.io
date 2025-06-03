@@ -449,7 +449,7 @@ h3 {
 
 
 
-/* Responsive */
+/* Responsive para móviles */
 @media (max-width: 768px) {
   .navbar-container {
     flex-direction: column;
@@ -459,9 +459,18 @@ h3 {
   .nav-links {
     flex-direction: column;
     gap: 10px;
+    width: 100%;
     margin-bottom: 10px;
   }
 
+  .nav-links li {
+    width: 100%;
+  }
+  .nav-links li a {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+  }
   h2 {
     font-size: 2.8rem;
   }
@@ -481,17 +490,17 @@ body.light-theme {
 body.light-theme a {
   color: #333;
 }
-@media (max-width: 600px) {
+/* Media query para móviles */
+@media (max-width: 768px) {
   .navbar-container {
-    flex-direction: column; /* Apila verticalmente */
-    align-items: flex-start; /* Alinea a la izquierda */
-    gap: 10px; /* Espacio entre elementos */
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .nav-links {
-    flex-direction: column; /* Lista vertical */
+    flex-direction: column;
     gap: 10px;
-    width: 100%; /* Que ocupe todo el ancho */
+    width: 100%;
   }
 
   .nav-links li {
@@ -501,9 +510,6 @@ body.light-theme a {
   .nav-links li a {
     display: block;
     padding: 10px 0;
-  }
-  
-  #navbar {
-    padding: 10px; /* Menos padding para no ocupar tanto */
+    width: 100%;
   }
 }
