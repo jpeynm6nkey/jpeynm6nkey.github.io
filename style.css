@@ -481,3 +481,29 @@ body.light-theme {
 body.light-theme a {
   color: #333;
 }
+@media (max-width: 600px) {
+  .navbar-container {
+    flex-direction: column; /* Apila verticalmente */
+    align-items: flex-start; /* Alinea a la izquierda */
+    gap: 10px; /* Espacio entre elementos */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Lista vertical */
+    gap: 10px;
+    width: 100%; /* Que ocupe todo el ancho */
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links li a {
+    display: block;
+    padding: 10px 0;
+  }
+  
+  #navbar {
+    padding: 10px; /* Menos padding para no ocupar tanto */
+  }
+}
