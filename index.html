@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jota Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header id="navbar">
+    <nav class="navbar-container">
+      <ul class="nav-links">
+        <li><a href="#intro">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#certifications">Certificaciones</a></li>
+        <li><a href="#languages">Idiomas</a></li>
+        <li><a href="#education">Formación</a></li>
+        <li><a href="#other-projects">Otros Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+  <section id="intro" class="section full-screen center-content section-container">
+    <h1 class="hero-intro">Hola 👋, soy</h1>
+    <h2 class="hero-name">Javier</h2>
+    <h3 class="hero-role">Especialista en Ciberseguridad</h3>
+
+    <div class="hero-buttons">
+      <a href="CV.pdf" class="btn">Descargar CV</a>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="about" class="section section-container">
+    <div class="about">
+      <div class="about-text">
+        <h2>Sobre mí</h2>
+        <p>
+          Apasionado por la ciberseguridad, con un perfil versátil y en constante evolución.
+          He participado en proyectos centrados en la gestión y seguridad de redes, el análisis de datos y, más recientemente,
+          desarrollé un proyecto de investigación sobre el diseño e implementación de marcos de ciberseguridad aplicados al IoT industrial.
+        </p>
+        <p>
+          Soy un chico autodidacta, responsable, curioso, comprometido, adaptable y con una mentalidad bastante analítica.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="profile.jpg" alt="Foto de perfil" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+<section id="projects">
+  <h2><span class="titulo-color">Proyectos</span></h2>
+  <div class="contenedor-proyectos">
+
+    <div class="proyecto">
+      <strong>Diseño e Implementación de un Framework de Ciberseguridad para Entornos IoT Industriales</strong>
+      <p>Desarrollo de un entorno virtual completo para simular sistemas industriales (IIoT) con ataques reales y medidas defensivas, aplicando el estándar IEC 62443. Se validó un framework de ciberseguridad enfocado en proteger infraestructuras críticas y protocolos industriales como Modbus TCP.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Estudio y aplicación del estándar IEC 62443 para entornos industriales.</li>
+        <li>Diseño de un entorno virtual industrial completo en VMware.</li>
+        <li>Implementación de máquinas virtuales: Ubuntu, PfSense, Kali Linux, Windows + Factory I/O.</li>
+        <li>Simulación de ataques reales (Modbus TCP).</li>
+        <li>Herramientas: Nmap, Python, Wireshark.</li>
+        <li>Aplicación de medidas defensivas basadas en el estándar IEC 62443.</li>
+        <li>Validación de un framework robusto para infraestructuras críticas industriales.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <strong>Planificación, Diseño, Implementación y Gestión de una Red Empresarial con sede en España y Reino Unido</strong>
+      <p>Diseño y configuración de una red empresarial distribuida, incluyendo VPN de sitio a sitio, gestión de dispositivos, segmentación lógica y física, políticas de seguridad, cifrado y servicios clave como SSH, web y correo corporativo. Todo con enfoque en ciberseguridad y administración segura. </p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Diseño de red empresarial con varias sedes y residencias.</li>
+        <li>Administración de hardware/software y configuración de dispositivos.</li>
+        <li>Segmentación física/lógica, ruteo y firewall.</li>
+        <li>Correo corporativo, web interna, acceso SSH seguro.</li>
+        <li>VPN de sitio a sitio, IPsec, SSL, TLS, cifrado y ACLs.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <strong>Manual del Sistema de Gestión de Seguridad de la Información para una empresa del sector de la Ciberseguridad</strong>
+      <p>Elaboración e implantación de un SGSI completo, incluyendo análisis de riesgos, políticas internas, auditorías, mejora continua y adaptación al contexto organizacional. Enfocado en garantizar la confidencialidad, integridad y disponibilidad de la información de la empresa.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Análisis de contexto organizacional y políticas internas.</li>
+        <li>Definición de políticas de liderazgo, roles y responsabilidades.</li>
+        <li>Planificación y documentación completa del SGSI.</li>
+        <li>Diseño de una metodología de análisis de riesgos.</li>
+        <li>Tratamiento estructurado de los riesgos de seguridad de la información.</li>
+        <li>Evaluación del desempeño, auditoría y mejora continua.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <strong>Plan de respuesta a incidentes para empresa farmacéutica - Pearson Health</strong>
+      <p>Desarrollo de un PRI centrado en la identificación, análisis y mitigación de amenazas cibernéticas en entornos críticos, con énfasis en el sector salud (servicio de farmacia)</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Identificación y análisis de amenazas en farmacia.</li>
+        <li>Análisis técnico y organizacional, inteligencia de amenazas.</li>
+        <li>Evaluación de ataques por ingeniería social y brechas normativas.</li>
+        <li>Estudio de amenazas físicas y de red.</li>
+        <li>Incorporación de inteligencia de amenazas para respuesta anticipada.</li>
+        <li>Benchmarking, marco normativo y defensa en profundidad.</li>
+        <li>Modelos de gobierno de la información y metodologías por sector.</li>
+        <li>Evaluación de marcos legales y leyes penales relacionadas con ciberseguridad.</li>
+        <li>Fortalecimiento de capacidades en análisis de riesgos, contingencia, defensa en profundidad y cumplimiento normativo.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <strong>Sistema de Detección de Phishing con Machine Learning</strong>
+      <p>Desarrollo de un modelo de IA para detectar sitios web de phishing a partir del análisis de URLs. Incluyó preprocesamiento de datos reales, balanceo del dataset, extracción de variables relevantes y entrenamiento con distintos algoritmos.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Análisis de ventajas y desventajas del uso de IA para la detección de sitios web fraudulentos.</li>
+        <li>Preprocesamiento de datos desde Kaggle (>500K URLs).</li>
+        <li>Transformación y limpieza de los datos para su uso en modelos de Machine Learning.</li>
+        <li>Balanceo del dataset para corregir el desbalance entre clases (good/bad).</li>
+        <li>Extracción de variables (Recuento de símbolos, de anclas, de puntos en la URL, presencia de SSL).</li>
+        <li>Algoritmos: MLPClassifier, Naive Bayes, SVM, Árboles de decisión.</li>
+        <li>Métricas: Accuracy 65%, Precision 73%, Recall: 46%, F1 57%, Curva ROC y Matriz de Confusión.</li>
+        <li>Gráficas: Seaborn, Matplotlib.</li>
+        <li>Discusión de desafíos éticos y técnicos (Necesidad de datos de calidad; Costes de mantenimiento y entrenamiento; Falsos positivos y negativos</li>
+        <li>Ética y normativa RGPD.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <strong>Análisis de Big Data y Visualización</strong>
+      <p>Transformación y análisis de grandes volúmenes de datos mediante Python, Prophet y Power BI. Modelado de datos para predicción de series temporales y visualización interactiva de resultados, con enfoque en la toma de decisiones basada en datos.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-proyecto">
+        <li>Limpieza y transformación de datos masivos con Python.</li>
+        <li>Predicción de series temporales con Prophet.</li>
+        <li>Dashboards interactivos en Power BI.</li>
+        <li>Enfoque en decisiones basadas en datos (Data-Driven).</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Habilidades -->
+<section id="skills">
+  <h2><span class="titulo-color">Habilidades</span></h2>
+  <div class="contenedor-habilidades">
+
+    <!-- HARD SKILLS -->
+    <div class="habilidad">
+      <strong>Hard Skills 🔋   </strong>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <div class="detalles-habilidad">
+
+        <div class="habilidad-sub">
+          <strong>🛠️ Herramientas Técnicas</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li><strong> Sistemas Operativos:</strong>  Linux (Kali, Ubuntu), Windows, FreeBSD.</li>
+            <li><strong>Herramientas de análisis:</strong> Wireshark, Nmap.</li>
+            <li><strong>Virtualización y redes:</strong> VMware, pfSense.</li>
+            <li><strong>Lenguajes:</strong> Python.</li>
+            <li><strong>Software:</strong> Cisco Packet Tracer, Power BI, Factory I/O, OpenPLC.</li>
+          </ul>
+        </div>
+
+        <div class="habilidad-sub">
+          <strong>🛡️ Ciberseguridad y Respuesta a Incidentes</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li>Modelado de amenazas y análisis de riesgos (STRIDE, MITRE ATT&CK).</li>
+            <li>Planes de Respuesta a Incidentes (PRI).</li>
+            <li>Evaluación de vulnerabilidades técnicas y organizacionales.</li>
+            <li>Gestión de ciberamenazas en entornos críticos.</li>
+            <li><strong>Cumplimiento normativo:</strong> LOPD, RGPD, NIST, ISO27001, IEC 62443.</li>
+          </ul>
+        </div>
+
+        <div class="habilidad-sub">
+          <strong>🏭 Ciberseguridad Industrial (IIoT)</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li><strong>Simulación de entornos industriales:</strong> Factory I/O, OpenPLC.</li>
+            <li>Virtualización con VMware.</li>
+            <li>Simulación de ataques (Python vía Protocolo Modbus TCP).</li>
+            <li>Aplicación del estándar IEC 62443.</li>
+          </ul>
+        </div>
+
+        <div class="habilidad-sub">
+          <strong>💼 Gestión y Gobierno de la Seguridad</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li>Desarrollo de SGSI (ISO 27001).</li>
+            <li>Análisis de riesgos.</li>
+            <li>Auditorías internas y mejora continua.</li>
+          </ul>
+        </div>
+
+        <div class="habilidad-sub">
+          <strong>🌐 Seguridad de Redes e Infraestructuras</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li>Diseño de redes multisede (VPN, SSH, ACLs).</li>
+            <li>Segmentación de red (VLANs, DMZ).</li>
+            <li>Protocolos de seguridad: IPsec, TLS, SSL.</li>
+            <li>Cifrado simétrico y asimétrico (HASH, MAC).</li>
+            <li>Gestión de Firewalls y servicios seguros.</li>
+          </ul>
+        </div>
+
+        <div class="habilidad-sub">
+          <strong>📊 Análisis de Datos y Machine Learning</strong>
+          <button class="toggle-detalles">Ver detalles</button>
+          <ul class="detalles-habilidad">
+            <li>Limpieza y transformación de datos (Pandas, Numpy).</li>
+            <li>Visualización con Power BI.</li>
+            <li>Modelado con Prophet.</li>
+            <li>Clasificación: MLPClassifier, SVM, Naive Bayes.</li>
+            <li>Métricas: Accuracy, Precision, Recall, F1, ROC, Matriz de Confusión.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SOFT SKILLS -->
+    <div class="habilidad">
+      <strong>Soft Skills 🤝  </strong>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-habilidad">
+        <li>Responsabilidad: Entrega de resultados con calidad.</li>
+        <li>Curiosidad continua: Búsqueda constante de aprendizaje.</li>
+        <li>Compromiso profesional con proyectos y metas comunes.</li>
+        <li>Comunicación efectiva en entornos técnicos y no técnicos.</li>
+        <li>Trabajo en equipo con perfiles multidisciplinares.</li>
+        <li>Eficiencia operativa y optimización del tiempo.</li>
+        <li>Gestión bajo presión con toma de decisiones efectiva.</li>
+        <li>Adaptabilidad a nuevas tecnologías y metodologías.</li>
+        <li>Pensamiento analítico.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Experiencia -->
+  <section id="experience">
+  <h2><span class="titulo-color">Experiencia Profesional</span></h2>
+  <div class="contenedor-experiencia">
+
+    <div class="experiencia-item">
+      <strong>Q&A Technician – TechData (Julio 2021)</strong>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-habilidad">
+        <li>Realización de pruebas de calidad y verificación de funcionamiento en equipos informáticos.</li>
+        <li>Coordinación interdepartamental para la identificación y resolución eficaz de incidencias técnicas.</li>
+      </ul>
+    </div>
+
+        <!-- Aquí puedes añadir más experiencias fácilmente -->
+    <div class="experiencia-item">
+      💡 Actualmente me encuentro en búsqueda activa de trabajo. Estoy buscando oportunidades en las que pueda seguir creciendo en el campo de la ciberseguridad, particularmente en áreas como seguridad de red, IoT, ciberseguridad industrial, gestión de riesgos o análisis de seguridad basado en datos. Estoy abierto a escuchar cualquier oferta. No dudes en contactarme !!! 🛫
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Certificaciones -->
+<section id="certifications">
+  <h2><span class="titulo-color">Certificaciones</span></h2>
+  <div class="contenedor-certificaciones">
+
+    <div class="certificacion-item">
+      <strong>🛡️ Cisco CCNA v7 – En curso</strong>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-habilidad">
+        <li><strong>Fundamentos de Redes:</strong> TCP/IP, modelos OSI, protocolos clave (Ethernet, IPv4/IPv6).</li>
+        <li><strong>Acceso a la Red:</strong> Switching, VLANs, STP, seguridad de capa 2.</li>
+        <li><strong>Conectividad IP:</strong> Subnetting, enrutamiento estático y dinámico (RIP, OSPF).</li>
+        <li><strong>Servicios IP:</strong> NAT, DHCP, DNS, Syslog, NTP, SNMP.</li>
+        <li><strong>Seguridad en Redes:</strong> ACLs, SSH, HTTPS, mitigación de ataques básicos.</li>
+        <li><strong>Automatización y Programabilidad:</strong> Introducción a SDN, APIs REST, JSON, Python.</li>
+      </ul>
+    </div>
+
+    <!-- Puedes añadir más certificaciones fácilmente -->
+    <!--
+    <div class="certificacion-item">
+      <strong>Nombre de Certificación – Estado</strong>
+      <button class="toggle-detalles">Haz clic para ver más detalles</button>
+      <ul class="detalles-habilidad">
+        <li>Detalles aquí...</li>
+      </ul>
+    </div>
+    -->
+
+  </div>
+</section>
+
+  <!-- IDIOMAS -->
+<section id="languages">
+  <h2><span class="titulo-color">Idiomas</span></h2>
+  <div class="contenedor-proyectos">
+    <div class="proyecto">
+      <h3>🇪🇸 Español</h3>
+      <p>Competencia profesional Completa - Nivel Nativo.</p>
+    </div>
+    <div class="proyecto">
+      <h3>🇬🇧 Inglés</h3>
+      <p>Competencia profesional Avanzada - C1 Certificado.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Formación -->
+<section id="education">
+  <h2><span class="titulo-color">Formación Académica</span></h2>
+  <div class="contenedor-formacion">
+
+    <div class="formacion-item">
+      <h3>Bachelor's Degree in Cybersecurity & Digital Forensics</h3>
+      <p><strong>University of Canterbury</strong> — 2024 – 2025</p>
+    </div>
+
+    <div class="formacion-item">
+      <h3>Higher National Diploma (HND) in Cybersecurity & Digital Intelligence</h3>
+      <p><strong>MSMK University</strong> — 2022 – 2024</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- OTROS PROYECTOS -->
+<section id="other-projects">
+  <h2>Otros Proyectos</h2>
+  <div class="contenedor-proyectos">
+
+    <div class="proyecto">
+      <h3>Análisis de la Salud Mental en la Era Digital</h3>
+      <p>Realización de una encuesta y análisis estadístico sobre el impacto del uso de dispositivos digitales, redes sociales y la presión social online en la salud mental, con foco en jóvenes de 18 a 24 años.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles del proyecto.</button>
+      <ul class="detalles-proyecto">
+        <li>Diseño y ejecución de una encuesta cuantitativa centrada en salud mental y tecnología.</li>
+        <li>Participantes mayoritariamente en el rango de edad de 18 a 24 años.</li>
+        <li>Análisis de patrones de comportamiento digital.
+        <li>Evaluación de percepciones sobre salud mental.
+        <li>Conciencia sobre el impacto digital.
+        <li>Opinión sobre intervenciones digitales.
+        <li>Impacto de la presión social.
+        <li>Análisis estadístico: media, mediana, moda, desviación estándar, coeficiente de variación.</li>
+      </ul>
+    </div>
+
+    <div class="proyecto">
+      <h3>Plan de desarrollo para una marca de ropa</h3>
+      <p>Proyecto enfocado en el desarrollo de un plan estratégico empresarial completo, incluyendo análisis del entorno y de la competencia, evaluación interna, definición de objetivos, estrategias ágiles, planificación de acciones, proyección financiera y medidas de contingencia.</p>
+      <button class="toggle-detalles">Haz clic para ver más detalles del proyecto.</button>
+      <ul class="detalles-proyecto">
+        <li>Análisis del entorno externo:
+          <ul>
+            <li>Estudio de tendencias del mercado</li>
+            <li>Análisis PESTEL</li>
+            <li>Evaluación de la competencia</li>
+          </ul>
+        </li>
+        <li>Diagnóstico interno:
+          <ul>
+            <li>Definición del público objetivo</li>
+            <li>Análisis DAFO</li>
+          </ul>
+        </li>
+        <li>Planificación estratégica:
+          <ul>
+            <li>Fijación de objetivos empresariales</li>
+            <li>Desarrollo de estrategias Agile</li>
+          </ul>
+        </li>
+        <li>Ejecución y seguimiento:
+          <ul>
+            <li>Calendario de acciones y métricas</li>
+            <li>Proyección financiera y ROI</li>
+            <li>Plan de contingencia</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Contacto -->
+<section id="contact">
+  <h2><span class="titulo-color">Contacto</span></h2>
+  <div class="contenedor-contacto">
+    <p>📧 <strong>Email:</strong> javier.schez.espinosa@gmail.com</p>
+    <p>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/javier-s%C3%A1nchez-espinosa-/" target="_blank">LinkedIn - Javier 'Jota' Sánchez Espinosa</a></p>
+    <p>👾 <strong>GitHub:</strong> <a href="https://github.com/jpeynm6nkey" target="_blank">GitHub - 'jpeynm6nkey'</a></p>
+  </div>
+</section>
+
+
+  <!-- Scripts -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const botones = document.querySelectorAll('.toggle-detalles');
+
+    botones.forEach(button => {
+      const detalles = button.nextElementSibling;
+      detalles.style.display = 'none'; // Asegura que inicie oculto
+
+      button.addEventListener('click', () => {
+        const visible = detalles.style.display === 'block';
+        detalles.style.display = visible ? 'none' : 'block';
+        button.textContent = visible
+          ? 'Haz clic para ver más detalles'
+          : 'Haz clic para ocultar detalles';
+      });
+    });
+  });
+</script>
+</body>
+</html>
